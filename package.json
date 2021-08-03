@@ -1,0 +1,26 @@
+{
+  "name": "plugin-taro-env",
+  "version": "0.0.1",
+  "description": "A Taro plugin supporting conditional compilation for Vue SFC template",
+  "main": "dist/index.js",
+  "repository": "https://github.com/b2nil/plugin-taro-env.git",
+  "author": "b2nil",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./esbuild.build.js"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "peerDependences": {
+    "@tarojs/mini-runner": "^3.3.0"
+  },
+  "devDependencies": {
+    "@tarojs/service": "^3.3.0",
+    "@types/node": "^16.4.10",
+    "esbuild": "^0.12.17",
+    "typescript": "^4.3.5"
+  }
+}
