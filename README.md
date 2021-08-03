@@ -1,6 +1,11 @@
 # plugin-taro-env
 > 支持对 Vue SFC 模板进行条件编译
 
+## 安装
+```bash
+yarn add -D plugin-taro-env
+```
+
 ## 使用
 - 在编译配置文件中配置插件：
 ```ts
