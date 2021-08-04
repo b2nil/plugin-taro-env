@@ -31,7 +31,7 @@ module.exports = function (context: IPluginContext) {
 
       const targetEnv = findEnv(source)
 
-      if (targetEnv !== process.env.TARO_ENV) {
+      if (Boolean(targetEnv) && targetEnv !== process.env.TARO_ENV) {
         ctx.removeNode(node)
       }
     } else if (node.type === 1 /* ELEMENT */) {
