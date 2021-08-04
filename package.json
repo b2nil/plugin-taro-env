@@ -1,6 +1,6 @@
 {
   "name": "plugin-taro-env",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Taro plugin supporting conditional compilation for Vue SFC template",
   "main": "dist/index.js",
   "repository": "https://github.com/b2nil/plugin-taro-env.git",
