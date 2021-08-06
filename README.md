@@ -1,6 +1,8 @@
 # plugin-taro-env
 > 支持对 Vue SFC 模板进行条件编译
 
+> 支持 Vue 2.0 和 Vue 3.0
+
 ## 安装
 ```bash
 yarn add -D plugin-taro-env
